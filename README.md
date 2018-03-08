@@ -1,7 +1,7 @@
 
 # UI 主题
 
-[](./snapshot.png)
+![snapshot](./snapshot.png)
 ## 使用
 
 ```
