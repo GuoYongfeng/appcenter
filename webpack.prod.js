@@ -8,11 +8,9 @@ var path = require('path');
 const ENV = process.env.NODE_ENV = process.env.ENV = 'production';
 
 module.exports = webpackMerge(commonConfig, {
-    // devtool: 'source-map',
-
     output: {
         path: path.join(process.cwd(), '/dist'),
-        publicPath: '/',
+        publicPath: '/appcenter/dist/',
         filename: '[name].[hash].js'
     },
 

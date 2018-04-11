@@ -1,13 +1,12 @@
 {
-  "name": "Angle",
+  "name": "tinper-bee-pro",
   "version": "0.0.0",
-  "description": "Angle - Bootstrap Admin App + ReactJS",
-  "author": "@themicon_co",
+  "description": "Admin App + ReactJS",
+  "author": "guoyongfeng",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --inline --progress --port 3000 --open",
     "clean": "rimraf dist/",
     "build": "npm run clean && webpack --config webpack.prod.js --progress --profile --bail",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "install": "napa",
     "postinstall-heroku": "npm run build",
     "postinstall": "npm run build-modernizr",
